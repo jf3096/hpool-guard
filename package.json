@@ -1,0 +1,22 @@
+{
+  "name": "hpool-guard",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "pkg": "pkg src/index.js --options expose-gc --output hpool-guard-1.0.exe"
+  },
+  "dependencies": {
+    "@types/node": "^15.3.1",
+    "log-timestamp": "^0.3.0"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js",
+    "assets": "views/**/*",
+    "targets": [
+      "node14-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}
