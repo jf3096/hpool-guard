@@ -1,6 +1,6 @@
 # hpool-guard
 
-> hpool 守卫, 解决扫盘超时的问题
+> hpool 守卫, 解决扫盘超时的问题 (当前仓库不在维护，推荐使用： https://github.com/jf3096/cli-watch-dog）
 
 ## 适用平台
 
